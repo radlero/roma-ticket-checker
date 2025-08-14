@@ -1,0 +1,6 @@
+# How many threads Sidekiq uses to process jobs
+:concurrency: 5
+
+# Define the queues this Sidekiq process will work on
+:queues:
+  - default

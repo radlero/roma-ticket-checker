@@ -1,0 +1,2 @@
+class WatchedMatch < ApplicationRecord
+end

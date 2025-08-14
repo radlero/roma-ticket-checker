@@ -1,0 +1,6 @@
+# This file contains only schedule definitions.
+# Each key corresponds to a job name.
+check_tickets_job:
+  cron: "*/10 * * * *"    # Every 10 minutes
+  class: "CheckTicketsJob"
+  queue: default

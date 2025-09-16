@@ -19,7 +19,7 @@ gem "jbuilder"
 
 # Fetch and parse the AS Roma tickets page
 gem 'httparty'
-gem 'nokogiri', '~> 1.16'   # or the latest stable version
+gem 'nokogiri', '~> 1.18'   # or the latest stable version
 
 # Background job processing and scheduling
 gem 'sidekiq'
